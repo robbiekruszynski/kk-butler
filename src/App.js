@@ -45,7 +45,7 @@ class App extends Component {
           Prev
         </button>
 
-        <div className="page">
+        <div className="pages">
           <div className="col">
             <div className={`cards-slider active-slide-${property.index}`}>
               <div
