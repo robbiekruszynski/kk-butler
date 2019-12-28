@@ -45,24 +45,6 @@ class App extends Component {
           Prev
         </button>
 
-        <div className="pages">
-          <div className="col">
-            <div className={`cards-slider active-slide-${property.index}`}>
-              <div
-                className="cards-slider-wrapper"
-                style={{
-                  transform: `translateX(-${property.index *
-                    (100 / properties.length)}%)`
-                }}
-              >
-                {properties.map(property => (
-                  <Card key={property._id} property={property} />
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div className="page">
           <div className="col">
             <div className={`cards-slider active-slide-${property.index}`}>
